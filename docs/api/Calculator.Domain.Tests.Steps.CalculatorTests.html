@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+      <title>Class CalculatorTests | Calculator &#183; Desarrollo guiado por el comportamiento </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class CalculatorTests | Calculator &#183; Desarrollo guiado por el comportamiento ">
+      
+      <meta name="description" content="Vincula los pasos Gherkin con la calculadora y las aserciones NUnit.">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/UPT-FAING-EPIS/si784-2026-ii-si784-2026-ii-u2-lab07-miltom123/new/main/apiSpec/new?filename=Calculator_Domain_Tests_Steps_CalculatorTests.md&amp;value=---%0Auid%3A%20Calculator.Domain.Tests.Steps.CalculatorTests%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="Calculator.Domain.Tests.Steps.CalculatorTests">
+
+
+
+  <h1 id="Calculator_Domain_Tests_Steps_CalculatorTests" data-uid="Calculator.Domain.Tests.Steps.CalculatorTests" class="text-break">
+Class CalculatorTests  <a class="header-action link-secondary" title="View source" href="https://github.com/UPT-FAING-EPIS/si784-2026-ii-si784-2026-ii-u2-lab07-miltom123/blob/main/Calculator/Calculator.Domain.Tests/Steps/CalculatorTests.cs/#L7"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><span class="xref">Calculator</span>.<a class="xref" href="Calculator.Domain.html">Domain</a>.<span class="xref">Tests</span>.<a class="xref" href="Calculator.Domain.Tests.Steps.html">Steps</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>Calculator.Domain.Tests.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Vincula los pasos Gherkin con la calculadora y las aserciones NUnit.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Binding]
+public sealed class CalculatorTests</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">CalculatorTests</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="Calculator_Domain_Tests_Steps_CalculatorTests_actualResult" data-uid="Calculator.Domain.Tests.Steps.CalculatorTests.actualResult">
+  actualResult
+  <a class="header-action link-secondary" title="View source" href="https://github.com/UPT-FAING-EPIS/si784-2026-ii-si784-2026-ii-u2-lab07-miltom123/blob/main/Calculator/Calculator.Domain.Tests/Steps/CalculatorTests.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Resultado de la operación del escenario.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private int actualResult</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Calculator_Domain_Tests_Steps_CalculatorTests_firstOperand" data-uid="Calculator.Domain.Tests.Steps.CalculatorTests.firstOperand">
+  firstOperand
+  <a class="header-action link-secondary" title="View source" href="https://github.com/UPT-FAING-EPIS/si784-2026-ii-si784-2026-ii-u2-lab07-miltom123/blob/main/Calculator/Calculator.Domain.Tests/Steps/CalculatorTests.cs/#L11"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Primer operando del escenario actual.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private int firstOperand</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+  <h3 id="Calculator_Domain_Tests_Steps_CalculatorTests_secondOperand" data-uid="Calculator.Domain.Tests.Steps.CalculatorTests.secondOperand">
+  secondOperand
+  <a class="header-action link-secondary" title="View source" href="https://github.com/UPT-FAING-EPIS/si784-2026-ii-si784-2026-ii-u2-lab07-miltom123/blob/main/Calculator/Calculator.Domain.Tests/Steps/CalculatorTests.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Segundo operando del escenario actual.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">private int secondOperand</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Calculator_Domain_Tests_Steps_CalculatorTests_Calculadora_" data-uid="Calculator.Domain.Tests.Steps.CalculatorTests.Calculadora*"></a>
+
+  <h3 id="Calculator_Domain_Tests_Steps_CalculatorTests_Calculadora" data-uid="Calculator.Domain.Tests.Steps.CalculatorTests.Calculadora">
+  Calculadora
+  <a class="header-action link-secondary" title="View source" href="https://github.com/UPT-FAING-EPIS/si784-2026-ii-si784-2026-ii-u2-lab07-miltom123/blob/main/Calculator/Calculator.Domain.Tests/Steps/CalculatorTests.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Calculadora utilizada por los pasos del escenario.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Calculator Calculadora { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Calculator.Domain.Calculator.html">Calculator</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="Calculator_Domain_Tests_Steps_CalculatorTests_CuandoDivido_" data-uid="Calculator.Domain.Tests.Steps.CalculatorTests.CuandoDivido*"></a>
+
+  <h3 id="Calculator_Domain_Tests_Steps_CalculatorTests_CuandoDivido" data-uid="Calculator.Domain.Tests.Steps.CalculatorTests.CuandoDivido">
+  CuandoDivido()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/UPT-FAING-EPIS/si784-2026-ii-si784-2026-ii-u2-lab07-miltom123/blob/main/Calculator/Calculator.Domain.Tests/Steps/CalculatorTests.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Ejecuta la división entera de los operandos del escenario.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[When(&quot;divido&quot;)]
+public void CuandoDivido()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Calculator_Domain_Tests_Steps_CalculatorTests_CuandoMultiplico_" data-uid="Calculator.Domain.Tests.Steps.CalculatorTests.CuandoMultiplico*"></a>
+
+  <h3 id="Calculator_Domain_Tests_Steps_CalculatorTests_CuandoMultiplico" data-uid="Calculator.Domain.Tests.Steps.CalculatorTests.CuandoMultiplico">
+  CuandoMultiplico()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/UPT-FAING-EPIS/si784-2026-ii-si784-2026-ii-u2-lab07-miltom123/blob/main/Calculator/Calculator.Domain.Tests/Steps/CalculatorTests.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Ejecuta la multiplicación de los operandos del escenario.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[When(&quot;multiplico&quot;)]
+public void CuandoMultiplico()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Calculator_Domain_Tests_Steps_CalculatorTests_CuandoResto_" data-uid="Calculator.Domain.Tests.Steps.CalculatorTests.CuandoResto*"></a>
+
+  <h3 id="Calculator_Domain_Tests_Steps_CalculatorTests_CuandoResto" data-uid="Calculator.Domain.Tests.Steps.CalculatorTests.CuandoResto">
+  CuandoResto()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/UPT-FAING-EPIS/si784-2026-ii-si784-2026-ii-u2-lab07-miltom123/blob/main/Calculator/Calculator.Domain.Tests/Steps/CalculatorTests.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Ejecuta la resta.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[When(&quot;resto&quot;)]
+public void CuandoResto()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Calculator_Domain_Tests_Steps_CalculatorTests_CuandoSumo_" data-uid="Calculator.Domain.Tests.Steps.CalculatorTests.CuandoSumo*"></a>
+
+  <h3 id="Calculator_Domain_Tests_Steps_CalculatorTests_CuandoSumo" data-uid="Calculator.Domain.Tests.Steps.CalculatorTests.CuandoSumo">
+  CuandoSumo()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/UPT-FAING-EPIS/si784-2026-ii-si784-2026-ii-u2-lab07-miltom123/blob/main/Calculator/Calculator.Domain.Tests/Steps/CalculatorTests.cs/#L30"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Ejecuta la suma.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[When(&quot;sumo&quot;)]
+public void CuandoSumo()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Calculator_Domain_Tests_Steps_CalculatorTests_DadoElNumero_" data-uid="Calculator.Domain.Tests.Steps.CalculatorTests.DadoElNumero*"></a>
+
+  <h3 id="Calculator_Domain_Tests_Steps_CalculatorTests_DadoElNumero_System_Int32_" data-uid="Calculator.Domain.Tests.Steps.CalculatorTests.DadoElNumero(System.Int32)">
+  DadoElNumero(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/UPT-FAING-EPIS/si784-2026-ii-si784-2026-ii-u2-lab07-miltom123/blob/main/Calculator/Calculator.Domain.Tests/Steps/CalculatorTests.cs/#L21"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Establece el primer operando.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Given(&quot;^El numero (-?\\d+)$&quot;)]
+public void DadoElNumero(int operand)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>operand</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Valor inicial.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Calculator_Domain_Tests_Steps_CalculatorTests_EntoncesElResultadoDeberiaSer_" data-uid="Calculator.Domain.Tests.Steps.CalculatorTests.EntoncesElResultadoDeberiaSer*"></a>
+
+  <h3 id="Calculator_Domain_Tests_Steps_CalculatorTests_EntoncesElResultadoDeberiaSer_System_Int32_" data-uid="Calculator.Domain.Tests.Steps.CalculatorTests.EntoncesElResultadoDeberiaSer(System.Int32)">
+  EntoncesElResultadoDeberiaSer(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/UPT-FAING-EPIS/si784-2026-ii-si784-2026-ii-u2-lab07-miltom123/blob/main/Calculator/Calculator.Domain.Tests/Steps/CalculatorTests.cs/#L79"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Comprueba el resultado esperado del escenario.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Then(&quot;^el resultado es (-?\\d+)$&quot;)]
+public void EntoncesElResultadoDeberiaSer(int expected)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>expected</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Resultado definido en Gherkin.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Calculator_Domain_Tests_Steps_CalculatorTests_VerificarDesbordamiento_" data-uid="Calculator.Domain.Tests.Steps.CalculatorTests.VerificarDesbordamiento*"></a>
+
+  <h3 id="Calculator_Domain_Tests_Steps_CalculatorTests_VerificarDesbordamiento" data-uid="Calculator.Domain.Tests.Steps.CalculatorTests.VerificarDesbordamiento">
+  VerificarDesbordamiento()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/UPT-FAING-EPIS/si784-2026-ii-si784-2026-ii-u2-lab07-miltom123/blob/main/Calculator/Calculator.Domain.Tests/Steps/CalculatorTests.cs/#L74"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Comprueba el cociente que excede la capacidad de Int32.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Then(&quot;dividir el minimo entero entre menos uno produce desbordamiento&quot;)]
+public void VerificarDesbordamiento()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Calculator_Domain_Tests_Steps_CalculatorTests_VerificarDivisionEntreCero_" data-uid="Calculator.Domain.Tests.Steps.CalculatorTests.VerificarDivisionEntreCero*"></a>
+
+  <h3 id="Calculator_Domain_Tests_Steps_CalculatorTests_VerificarDivisionEntreCero" data-uid="Calculator.Domain.Tests.Steps.CalculatorTests.VerificarDivisionEntreCero">
+  VerificarDivisionEntreCero()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/UPT-FAING-EPIS/si784-2026-ii-si784-2026-ii-u2-lab07-miltom123/blob/main/Calculator/Calculator.Domain.Tests/Steps/CalculatorTests.cs/#L70"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Comprueba el contrato de error ante un divisor cero.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Then(&quot;dividir entre cero produce un error&quot;)]
+public void VerificarDivisionEntreCero()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Calculator_Domain_Tests_Steps_CalculatorTests_VerificarDivisiones_" data-uid="Calculator.Domain.Tests.Steps.CalculatorTests.VerificarDivisiones*"></a>
+
+  <h3 id="Calculator_Domain_Tests_Steps_CalculatorTests_VerificarDivisiones_TechTalk_SpecFlow_Table_" data-uid="Calculator.Domain.Tests.Steps.CalculatorTests.VerificarDivisiones(TechTalk.SpecFlow.Table)">
+  VerificarDivisiones(Table)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/UPT-FAING-EPIS/si784-2026-ii-si784-2026-ii-u2-lab07-miltom123/blob/main/Calculator/Calculator.Domain.Tests/Steps/CalculatorTests.cs/#L59"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Comprueba truncamiento y signos de la división entera.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Then(&quot;estas divisiones producen los resultados indicados&quot;)]
+public void VerificarDivisiones(Table examples)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>examples</code> <a class="xref" href="https://github.com/SpecFlowOSS/SpecFlow/blob/main/TechTalk.SpecFlow/Table.cs">Table</a></dt>
+    <dd><p>Tabla de dividendos, divisores y cocientes esperados.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Calculator_Domain_Tests_Steps_CalculatorTests_VerificarMultiplicaciones_" data-uid="Calculator.Domain.Tests.Steps.CalculatorTests.VerificarMultiplicaciones*"></a>
+
+  <h3 id="Calculator_Domain_Tests_Steps_CalculatorTests_VerificarMultiplicaciones_TechTalk_SpecFlow_Table_" data-uid="Calculator.Domain.Tests.Steps.CalculatorTests.VerificarMultiplicaciones(TechTalk.SpecFlow.Table)">
+  VerificarMultiplicaciones(Table)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/UPT-FAING-EPIS/si784-2026-ii-si784-2026-ii-u2-lab07-miltom123/blob/main/Calculator/Calculator.Domain.Tests/Steps/CalculatorTests.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Comprueba productos con cero y operandos negativos.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Then(&quot;estas multiplicaciones producen los resultados indicados&quot;)]
+public void VerificarMultiplicaciones(Table examples)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>examples</code> <a class="xref" href="https://github.com/SpecFlowOSS/SpecFlow/blob/main/TechTalk.SpecFlow/Table.cs">Table</a></dt>
+    <dd><p>Tabla de operandos y resultados esperados.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Calculator_Domain_Tests_Steps_CalculatorTests_YElNumero_" data-uid="Calculator.Domain.Tests.Steps.CalculatorTests.YElNumero*"></a>
+
+  <h3 id="Calculator_Domain_Tests_Steps_CalculatorTests_YElNumero_System_Int32_" data-uid="Calculator.Domain.Tests.Steps.CalculatorTests.YElNumero(System.Int32)">
+  YElNumero(int)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/UPT-FAING-EPIS/si784-2026-ii-si784-2026-ii-u2-lab07-miltom123/blob/main/Calculator/Calculator.Domain.Tests/Steps/CalculatorTests.cs/#L26"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Establece el segundo operando.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Given(&quot;^el numero (-?\\d+)$&quot;)]
+public void YElNumero(int operand)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>operand</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>Segundo valor.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/UPT-FAING-EPIS/si784-2026-ii-si784-2026-ii-u2-lab07-miltom123/blob/main/Calculator/Calculator.Domain.Tests/Steps/CalculatorTests.cs/#L7" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Milton H. Flores Chino · 2023078333 · Calidad y Pruebas de Software
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
