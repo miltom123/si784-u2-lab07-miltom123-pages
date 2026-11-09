@@ -1,11 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<TestRun id="573ff3e0-81c2-45bf-a07c-dd214955b2d6" name="@runnervmwuk1x 2026-11-09 00:56:43" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
-  <Times creation="2026-11-09T00:56:43.4563441+00:00" queuing="2026-11-09T00:56:43.4563442+00:00" start="2026-11-09T00:56:41.4305147+00:00" finish="2026-11-09T00:56:43.4678379+00:00" />
-  <TestSettings name="default" id="10d9f400-6413-4c7e-87de-5b3bbc0a35de">
-    <Deployment runDeploymentRoot="_runnervmwuk1x_2026-11-09_00_56_43" />
+<TestRun id="ccf0cf32-45da-4f1d-9e46-39777bd59e0a" name="@runnervmwuk1x 2026-11-09 00:58:19" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-11-09T00:58:19.6429765+00:00" queuing="2026-11-09T00:58:19.6429766+00:00" start="2026-11-09T00:58:18.1983229+00:00" finish="2026-11-09T00:58:19.6522895+00:00" />
+  <TestSettings name="default" id="05e3472e-e63b-485c-8430-ba466d303f8e">
+    <Deployment runDeploymentRoot="_runnervmwuk1x_2026-11-09_00_58_19" />
   </TestSettings>
   <Results>
-    <UnitTestResult executionId="e9a79af4-9d40-4b95-addd-0ab9b9bc1f29" testId="e0b8d05d-c62b-1b60-4017-230f0fbde7e9" testName="UsuarioMultiplicaDosNumerosYElResultadoEsCorrecto" computerName="runnervmwuk1x" duration="00:00:00.0033500" startTime="2026-11-09T00:56:42.9973710+00:00" endTime="2026-11-09T00:56:43.0007212+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e9a79af4-9d40-4b95-addd-0ab9b9bc1f29">
+    <UnitTestResult executionId="3ea77346-985a-4791-9505-619c9e11f1ab" testId="5a8169f3-265a-3b8d-37e9-001613431ec9" testName="UsuarioRestaDosNumerosYElResultadoEsCorrecto" computerName="runnervmwuk1x" duration="00:00:00.0027010" startTime="2026-11-09T00:58:19.2741099+00:00" endTime="2026-11-09T00:58:19.2768111+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3ea77346-985a-4791-9505-619c9e11f1ab">
+      <Output>
+        <StdOut>Given El numero 10
+-&gt; done: CalculatorTests.DadoElNumero(10) (0.0s)
+And el numero 5
+-&gt; done: CalculatorTests.YElNumero(5) (0.0s)
+When resto
+-&gt; done: CalculatorTests.CuandoResto() (0.0s)
+Then el resultado es 5
+-&gt; done: CalculatorTests.EntoncesElResultadoDeberiaSer(5) (0.0s)</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d5656893-24b1-4e2f-82fd-609231e47b8d" testId="e0b8d05d-c62b-1b60-4017-230f0fbde7e9" testName="UsuarioMultiplicaDosNumerosYElResultadoEsCorrecto" computerName="runnervmwuk1x" duration="00:00:00.0072310" startTime="2026-11-09T00:58:19.2588794+00:00" endTime="2026-11-09T00:58:19.2661104+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d5656893-24b1-4e2f-82fd-609231e47b8d">
       <Output>
         <StdOut>Given El numero 10
 -&gt; done: CalculatorTests.DadoElNumero(10) (0.0s)
@@ -24,19 +36,19 @@ And estas multiplicaciones producen los resultados indicados
 -&gt; done: CalculatorTests.VerificarMultiplicaciones(&lt;table&gt;) (0.0s)</StdOut>
       </Output>
     </UnitTestResult>
-    <UnitTestResult executionId="5f7d1fb1-b7ce-49a1-a8ad-43bb3c947448" testId="5a8169f3-265a-3b8d-37e9-001613431ec9" testName="UsuarioRestaDosNumerosYElResultadoEsCorrecto" computerName="runnervmwuk1x" duration="00:00:00.0012250" startTime="2026-11-09T00:56:43.0007562+00:00" endTime="2026-11-09T00:56:43.0019811+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5f7d1fb1-b7ce-49a1-a8ad-43bb3c947448">
+    <UnitTestResult executionId="001acae8-1c07-4eef-b25f-b587d56a2afb" testId="70090154-d662-1ffb-c3d7-4b04b0aeaa67" testName="UsuarioSumaDosNumerosYElResultadoEsCorrecto" computerName="runnervmwuk1x" duration="00:00:00.0011300" startTime="2026-11-09T00:58:19.2814578+00:00" endTime="2026-11-09T00:58:19.2825876+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="001acae8-1c07-4eef-b25f-b587d56a2afb">
       <Output>
         <StdOut>Given El numero 10
 -&gt; done: CalculatorTests.DadoElNumero(10) (0.0s)
 And el numero 5
 -&gt; done: CalculatorTests.YElNumero(5) (0.0s)
-When resto
--&gt; done: CalculatorTests.CuandoResto() (0.0s)
-Then el resultado es 5
--&gt; done: CalculatorTests.EntoncesElResultadoDeberiaSer(5) (0.0s)</StdOut>
+When sumo
+-&gt; done: CalculatorTests.CuandoSumo() (0.0s)
+Then el resultado es 15
+-&gt; done: CalculatorTests.EntoncesElResultadoDeberiaSer(15) (0.0s)</StdOut>
       </Output>
     </UnitTestResult>
-    <UnitTestResult executionId="c9f66734-66ac-4b94-ab98-ab138ef17ca9" testId="a13f4f6e-3083-76cd-593e-48118f2f1bb2" testName="UsuarioDivideDosNumerosYElResultadoEsCorrecto" computerName="runnervmwuk1x" duration="00:00:00.1532630" startTime="2026-11-09T00:56:42.8377976+00:00" endTime="2026-11-09T00:56:42.9909331+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c9f66734-66ac-4b94-ab98-ab138ef17ca9">
+    <UnitTestResult executionId="f7bf8f87-1cc1-4b8c-8310-d190637091cd" testId="a13f4f6e-3083-76cd-593e-48118f2f1bb2" testName="UsuarioDivideDosNumerosYElResultadoEsCorrecto" computerName="runnervmwuk1x" duration="00:00:00.1287680" startTime="2026-11-09T00:58:19.1228597+00:00" endTime="2026-11-09T00:58:19.2515418+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f7bf8f87-1cc1-4b8c-8310-d190637091cd">
       <Output>
         <StdOut>Given El numero 10
 -&gt; done: CalculatorTests.DadoElNumero(10) (0.0s)
@@ -60,42 +72,30 @@ And dividir el minimo entero entre menos uno produce desbordamiento
 -&gt; done: CalculatorTests.VerificarDesbordamiento() (0.0s)</StdOut>
       </Output>
     </UnitTestResult>
-    <UnitTestResult executionId="eb42202f-77b5-4bbc-8682-7bfb048cdc26" testId="70090154-d662-1ffb-c3d7-4b04b0aeaa67" testName="UsuarioSumaDosNumerosYElResultadoEsCorrecto" computerName="runnervmwuk1x" duration="00:00:00.0011480" startTime="2026-11-09T00:56:43.0020068+00:00" endTime="2026-11-09T00:56:43.0031551+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="eb42202f-77b5-4bbc-8682-7bfb048cdc26">
-      <Output>
-        <StdOut>Given El numero 10
--&gt; done: CalculatorTests.DadoElNumero(10) (0.0s)
-And el numero 5
--&gt; done: CalculatorTests.YElNumero(5) (0.0s)
-When sumo
--&gt; done: CalculatorTests.CuandoSumo() (0.0s)
-Then el resultado es 15
--&gt; done: CalculatorTests.EntoncesElResultadoDeberiaSer(15) (0.0s)</StdOut>
-      </Output>
-    </UnitTestResult>
   </Results>
   <TestDefinitions>
     <UnitTest name="UsuarioDivideDosNumerosYElResultadoEsCorrecto" storage="/home/runner/work/si784-2026-ii-si784-2026-ii-u2-lab07-miltom123/si784-2026-ii-si784-2026-ii-u2-lab07-miltom123/calculator/calculator.domain.tests/bin/release/net8.0/calculator.domain.tests.dll" id="a13f4f6e-3083-76cd-593e-48118f2f1bb2">
-      <Execution id="c9f66734-66ac-4b94-ab98-ab138ef17ca9" />
+      <Execution id="f7bf8f87-1cc1-4b8c-8310-d190637091cd" />
       <TestMethod codeBase="/home/runner/work/si784-2026-ii-si784-2026-ii-u2-lab07-miltom123/si784-2026-ii-si784-2026-ii-u2-lab07-miltom123/Calculator/Calculator.Domain.Tests/bin/Release/net8.0/Calculator.Domain.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Calculator.Domain.Tests.Features.ComoUsuarioQuieroHacerOperacionesAritmeticasParaCalcularResultadosFeature" name="UsuarioDivideDosNumerosYElResultadoEsCorrecto" />
     </UnitTest>
     <UnitTest name="UsuarioSumaDosNumerosYElResultadoEsCorrecto" storage="/home/runner/work/si784-2026-ii-si784-2026-ii-u2-lab07-miltom123/si784-2026-ii-si784-2026-ii-u2-lab07-miltom123/calculator/calculator.domain.tests/bin/release/net8.0/calculator.domain.tests.dll" id="70090154-d662-1ffb-c3d7-4b04b0aeaa67">
-      <Execution id="eb42202f-77b5-4bbc-8682-7bfb048cdc26" />
+      <Execution id="001acae8-1c07-4eef-b25f-b587d56a2afb" />
       <TestMethod codeBase="/home/runner/work/si784-2026-ii-si784-2026-ii-u2-lab07-miltom123/si784-2026-ii-si784-2026-ii-u2-lab07-miltom123/Calculator/Calculator.Domain.Tests/bin/Release/net8.0/Calculator.Domain.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Calculator.Domain.Tests.Features.ComoUsuarioQuieroHacerOperacionesAritmeticasParaCalcularResultadosFeature" name="UsuarioSumaDosNumerosYElResultadoEsCorrecto" />
     </UnitTest>
     <UnitTest name="UsuarioMultiplicaDosNumerosYElResultadoEsCorrecto" storage="/home/runner/work/si784-2026-ii-si784-2026-ii-u2-lab07-miltom123/si784-2026-ii-si784-2026-ii-u2-lab07-miltom123/calculator/calculator.domain.tests/bin/release/net8.0/calculator.domain.tests.dll" id="e0b8d05d-c62b-1b60-4017-230f0fbde7e9">
-      <Execution id="e9a79af4-9d40-4b95-addd-0ab9b9bc1f29" />
+      <Execution id="d5656893-24b1-4e2f-82fd-609231e47b8d" />
       <TestMethod codeBase="/home/runner/work/si784-2026-ii-si784-2026-ii-u2-lab07-miltom123/si784-2026-ii-si784-2026-ii-u2-lab07-miltom123/Calculator/Calculator.Domain.Tests/bin/Release/net8.0/Calculator.Domain.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Calculator.Domain.Tests.Features.ComoUsuarioQuieroHacerOperacionesAritmeticasParaCalcularResultadosFeature" name="UsuarioMultiplicaDosNumerosYElResultadoEsCorrecto" />
     </UnitTest>
     <UnitTest name="UsuarioRestaDosNumerosYElResultadoEsCorrecto" storage="/home/runner/work/si784-2026-ii-si784-2026-ii-u2-lab07-miltom123/si784-2026-ii-si784-2026-ii-u2-lab07-miltom123/calculator/calculator.domain.tests/bin/release/net8.0/calculator.domain.tests.dll" id="5a8169f3-265a-3b8d-37e9-001613431ec9">
-      <Execution id="5f7d1fb1-b7ce-49a1-a8ad-43bb3c947448" />
+      <Execution id="3ea77346-985a-4791-9505-619c9e11f1ab" />
       <TestMethod codeBase="/home/runner/work/si784-2026-ii-si784-2026-ii-u2-lab07-miltom123/si784-2026-ii-si784-2026-ii-u2-lab07-miltom123/Calculator/Calculator.Domain.Tests/bin/Release/net8.0/Calculator.Domain.Tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="Calculator.Domain.Tests.Features.ComoUsuarioQuieroHacerOperacionesAritmeticasParaCalcularResultadosFeature" name="UsuarioRestaDosNumerosYElResultadoEsCorrecto" />
     </UnitTest>
   </TestDefinitions>
   <TestEntries>
-    <TestEntry testId="e0b8d05d-c62b-1b60-4017-230f0fbde7e9" executionId="e9a79af4-9d40-4b95-addd-0ab9b9bc1f29" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="5a8169f3-265a-3b8d-37e9-001613431ec9" executionId="5f7d1fb1-b7ce-49a1-a8ad-43bb3c947448" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="a13f4f6e-3083-76cd-593e-48118f2f1bb2" executionId="c9f66734-66ac-4b94-ab98-ab138ef17ca9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="70090154-d662-1ffb-c3d7-4b04b0aeaa67" executionId="eb42202f-77b5-4bbc-8682-7bfb048cdc26" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5a8169f3-265a-3b8d-37e9-001613431ec9" executionId="3ea77346-985a-4791-9505-619c9e11f1ab" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e0b8d05d-c62b-1b60-4017-230f0fbde7e9" executionId="d5656893-24b1-4e2f-82fd-609231e47b8d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="70090154-d662-1ffb-c3d7-4b04b0aeaa67" executionId="001acae8-1c07-4eef-b25f-b587d56a2afb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a13f4f6e-3083-76cd-593e-48118f2f1bb2" executionId="f7bf8f87-1cc1-4b8c-8310-d190637091cd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
   </TestEntries>
   <TestLists>
     <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />

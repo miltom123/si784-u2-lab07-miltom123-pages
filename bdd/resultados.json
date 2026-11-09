@@ -21,10 +21,12 @@
     "line-rate": "1",
     "branch-rate": "1",
     "version": "1.9",
-    "timestamp": "1794185803",
+    "timestamp": "1794185899",
     "lines-covered": "4",
     "lines-valid": "4",
     "branches-covered": "0",
     "branches-valid": "0"
-  }
+  },
+  "bdd_scenarios": 4,
+  "bdd_steps": 20
 }
