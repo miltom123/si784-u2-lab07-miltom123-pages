@@ -1,0 +1,22 @@
+Summary
+  Generated on: 11/09/2026 - 00:56:45
+  Coverage date: 11/09/2026 - 00:56:43
+  Parser: Cobertura
+  Assemblies: 1
+  Classes: 1
+  Files: 1
+  Line coverage: 100%
+  Covered lines: 4
+  Uncovered lines: 0
+  Coverable lines: 4
+  Total lines: 32
+  Covered branches: 0
+  Total branches: 0
+  Method coverage: 100% (4 of 4)
+  Full method coverage: 100% (4 of 4)
+  Covered methods: 4
+  Fully covered methods: 4
+  Total methods: 4
+
+Calculator.Domain                 100%
+  Calculator.Domain.Calculator    100%
